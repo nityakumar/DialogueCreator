@@ -1,0 +1,173 @@
+body{
+  background-color:black;
+  font-family: Helvetica; 
+  color: white;
+  font-size:18px;
+}
+
+.container{
+  position:relative;
+  width: 80px;
+  height:80px;
+  border: 1px solid white;
+  top:200px;
+  margin: auto; 
+  box-sizing: border-box; 
+}
+
+.pixel {
+  content:"";
+  width: 10px; 
+  height: 10px;
+/*  background-color:white; */
+  position: absolute;
+}
+.pixel0{
+  left:0px;
+  background-color:white; 
+}
+.pixel0:hover {
+  background-color:red;
+}
+
+.pixel1{
+  left:10px;
+  background-color:white;  
+}
+.pixel1:hover {
+  background-color:yellow;
+}
+
+
+/* .pixel:hover {
+  background-color:red;
+} */
+/* .pixel18{
+  left:10px;
+  background-color:red;
+background-color:white;
+   
+} */
+.pixel2{
+  left:10px;
+  background-color:white; 
+}
+.pixel2:hover {
+  background-color:blue;
+}
+.text{
+  color:red;
+}
+.pixel22{
+  left:20px;
+   background-color:white; 
+}
+.pixel22:hover {
+  background-color:green;
+}
+.pixel3{
+  left:40px;
+  background-color:white;  
+}
+.pixel3:hover {
+  background-color:blue;
+}
+.pixel4{
+  left:50px;
+   background-color:white; 
+}
+.pixel4:hover {
+  background-color:yellow;
+}
+.pixel5{
+  left:60px;
+  background-color:white;
+   
+}
+.pixel5:hover {
+  background-color:red;
+}
+.pixel6{
+  left:0px;top:10px;
+   background-color:white;
+}
+.pixel6:hover {
+  background-color:green;
+}
+.pixel7{
+  left:10px;top:10px;
+   background-color:white;
+}
+.pixel7:hover {
+  background-color:purple;
+}
+.pixel8{
+  left:50px;top:10px;
+background-color:white;
+}
+.pixel8:hover {
+  background-color:yellow;
+}
+.pixel9{
+  left:20px;top:10px;
+  background-color:white; 
+}
+.pixel9:hover {
+  background-color:blue;
+}
+.pixel10{
+  left:20px;top:20px;
+  background-color:white; 
+}
+.pixel10:hover {
+  background-color:green;
+}
+.pixel11{
+  left:20px;top:30px;
+  background-color:white;  
+}
+.pixel11:hover {
+  background-color:yellow;
+}
+.pixel12{
+  left:20px;top:40px;
+  background-color:white; 
+}
+.pixel12:hover {
+  background-color:red;
+}
+.pixel13{
+  left:30px;top:40px;
+    background-color:white;  
+}
+.pixel13:hover {
+  background-color:blue;
+}
+.pixel14{
+  left:10px;top:60px;
+    background-color:white;  
+}
+.pixel14:hover {
+  background-color:purple;
+}
+.pixel15{
+  left:20px;top:60px;
+   background-color:white;   
+}
+.pixel15:hover {
+  background-color:yellow;
+}
+.pixel16{
+  left:30px;top:60px;
+    background-color:white;  
+}
+.pixel16:hover {
+  background-color:green;
+}
+.pixel17{
+  left:40px;top:60px;
+    background-color:white;  
+}
+.pixel17:hover {
+  background-color:red;
+}
